@@ -1,0 +1,7 @@
+version: '2'
+services:
+  ether:
+    image: ethereum/client-go
+    container_name: ether_container
+    volumes:
+      - $PWD:/home/ether_test
